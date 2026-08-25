@@ -1,0 +1,49 @@
+{
+  "app_name": "Verbum",
+  "nav": {
+    "home": "Antrano",
+    "bible": "Baiboly",
+    "search": "Tadiava",
+    "favorites": "Fifanakalozana"
+  },
+  "home": {
+    "welcome": "Tongasoa eto amin'i Verbum",
+    "description": "Vakio ny Baiboly amin'ny teny amindray.",
+    "start_reading": "Manomboka ny famakiana",
+    "recent_chapters": "Lesona vao gena"
+  },
+  "book_list": {
+    "old_testament": "Fidirana Tany",
+    "new_testament": "Fivoarana Vaovao"
+  },
+  "reader": {
+    "chapter": "Lesona",
+    "no_verses": "Tsy misy andiana",
+    "favorites": {
+      "add": "Apetraho amin'ny fisisiany",
+      "remove": "Esory amin'ny fisisiany",
+      "added": "Napetraka tao amin'ny fisisiany",
+      "removed": "Nesoriany tao amin'ny fisisiany"
+    }
+  },
+  "search": {
+    "placeholder": "Tadiavy ny Baiboly...",
+    "results": "Vokany",
+    "no_results": "Tsy misy vokany",
+    "searching": "Mitsingevana..."
+  },
+  "favorites": {
+    "title": "Fifanakalozana",
+    "empty": "Tsy misy fifanakalozana",
+    "add_some": "Mampidiro ny Baiboly ary apetrako izay tianao",
+    "clear_all": "Fafao daholo",
+    "confirm_clear": "Tena te hanafafa ny fifanakalozana rehetra ve ianao?"
+  },
+  "version": {
+    "ls1910": "Louis Segond 1910",
+    "kjv": "King James Version",
+    "rv1909": "Reina Valera 1909",
+    "luther1912": "Luther Bibel 1912",
+    "mg1865": "Baiboly Malagasy 1865"
+  }
+}

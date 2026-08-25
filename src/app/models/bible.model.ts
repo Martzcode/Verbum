@@ -28,16 +28,17 @@ export interface Favorite {
   timestamp: number;
 }
 
-export type BibleVersion = 'ls1910' | 'kjv' | 'rv1909' | 'luther1912';
-export type SupportedLocale = 'fr' | 'en' | 'es' | 'de';
+export type BibleVersion = 'ls1910' | 'kjv' | 'rv1909' | 'luther1912' | 'mg1865';
+export type SupportedLocale = 'fr' | 'en' | 'es' | 'de' | 'mg';
 
-export const SUPPORTED_LOCALES: SupportedLocale[] = ['fr', 'en', 'es', 'de'];
+export const SUPPORTED_LOCALES: SupportedLocale[] = ['fr', 'en', 'es', 'de', 'mg'];
 
 export const VERSION_MAP: Record<SupportedLocale, BibleVersion> = {
   fr: 'ls1910',
   en: 'kjv',
   es: 'rv1909',
   de: 'luther1912',
+  mg: 'mg1865',
 };
 
 export interface SearchResult {

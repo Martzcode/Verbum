@@ -6,7 +6,8 @@
         "fr": "Genèse",
         "en": "Genesis",
         "es": "Génesis",
-        "de": "1. Mose"
+        "de": "1. Mose",
+        "mg": "Genesis"
       },
       "testament": "ot",
       "chapters": 50
@@ -17,7 +18,8 @@
         "fr": "Exode",
         "en": "Exodus",
         "es": "Éxodo",
-        "de": "2. Mose"
+        "de": "2. Mose",
+        "mg": "Eksoda"
       },
       "testament": "ot",
       "chapters": 40
@@ -28,7 +30,8 @@
         "fr": "Lévitique",
         "en": "Leviticus",
         "es": "Levítico",
-        "de": "3. Mose"
+        "de": "3. Mose",
+        "mg": "Levitika"
       },
       "testament": "ot",
       "chapters": 27
@@ -39,7 +42,8 @@
         "fr": "Nombres",
         "en": "Numbers",
         "es": "Números",
-        "de": "4. Mose"
+        "de": "4. Mose",
+        "mg": "Nomina"
       },
       "testament": "ot",
       "chapters": 36
@@ -50,7 +54,8 @@
         "fr": "Deutéronome",
         "en": "Deuteronomy",
         "es": "Deuteronomio",
-        "de": "5. Mose"
+        "de": "5. Mose",
+        "mg": "Deoteronomia"
       },
       "testament": "ot",
       "chapters": 34
@@ -61,7 +66,8 @@
         "fr": "Josué",
         "en": "Joshua",
         "es": "Josué",
-        "de": "Josua"
+        "de": "Josua",
+        "mg": "Josoa"
       },
       "testament": "ot",
       "chapters": 24
@@ -72,7 +78,8 @@
         "fr": "Juges",
         "en": "Judges",
         "es": "Jueces",
-        "de": "Richter"
+        "de": "Richter",
+        "mg": "Mpanjaka"
       },
       "testament": "ot",
       "chapters": 21
@@ -83,7 +90,8 @@
         "fr": "Ruth",
         "en": "Ruth",
         "es": "Rut",
-        "de": "Ruth"
+        "de": "Ruth",
+        "mg": "Rota"
       },
       "testament": "ot",
       "chapters": 4
@@ -94,7 +102,8 @@
         "fr": "1 Samuel",
         "en": "1 Samuel",
         "es": "1 Samuel",
-        "de": "1. Samuel"
+        "de": "1. Samuel",
+        "mg": "1 Samuel"
       },
       "testament": "ot",
       "chapters": 31
@@ -105,7 +114,8 @@
         "fr": "2 Samuel",
         "en": "2 Samuel",
         "es": "2 Samuel",
-        "de": "2. Samuel"
+        "de": "2. Samuel",
+        "mg": "2 Samuel"
       },
       "testament": "ot",
       "chapters": 24
@@ -116,7 +126,8 @@
         "fr": "1 Rois",
         "en": "1 Kings",
         "es": "1 Reyes",
-        "de": "1. Könige"
+        "de": "1. Könige",
+        "mg": "1 Mpanjaka"
       },
       "testament": "ot",
       "chapters": 22
@@ -127,7 +138,8 @@
         "fr": "2 Rois",
         "en": "2 Kings",
         "es": "2 Reyes",
-        "de": "2. Könige"
+        "de": "2. Könige",
+        "mg": "2 Mpanjaka"
       },
       "testament": "ot",
       "chapters": 25
@@ -138,7 +150,8 @@
         "fr": "1 Chroniques",
         "en": "1 Chronicles",
         "es": "1 Crónicas",
-        "de": "1. Chronik"
+        "de": "1. Chronik",
+        "mg": "1 Tantara"
       },
       "testament": "ot",
       "chapters": 29
@@ -149,7 +162,8 @@
         "fr": "2 Chroniques",
         "en": "2 Chronicles",
         "es": "2 Crónicas",
-        "de": "2. Chronik"
+        "de": "2. Chronik",
+        "mg": "2 Tantara"
       },
       "testament": "ot",
       "chapters": 36
@@ -160,7 +174,8 @@
         "fr": "Esdras",
         "en": "Ezra",
         "es": "Esdras",
-        "de": "Esra"
+        "de": "Esra",
+        "mg": "Ezra"
       },
       "testament": "ot",
       "chapters": 10
@@ -171,7 +186,8 @@
         "fr": "Néhémie",
         "en": "Nehemiah",
         "es": "Nehemías",
-        "de": "Nehemia"
+        "de": "Nehemia",
+        "mg": "Nehemia"
       },
       "testament": "ot",
       "chapters": 13
@@ -182,7 +198,8 @@
         "fr": "Esther",
         "en": "Esther",
         "es": "Ester",
-        "de": "Esther"
+        "de": "Esther",
+        "mg": "Ester"
       },
       "testament": "ot",
       "chapters": 10
@@ -193,7 +210,8 @@
         "fr": "Job",
         "en": "Job",
         "es": "Job",
-        "de": "Hiob"
+        "de": "Hiob",
+        "mg": "Job"
       },
       "testament": "ot",
       "chapters": 42
@@ -204,7 +222,8 @@
         "fr": "Psaumes",
         "en": "Psalms",
         "es": "Salmos",
-        "de": "Psalmen"
+        "de": "Psalmen",
+        "mg": "Dontoam-baratra"
       },
       "testament": "ot",
       "chapters": 150
@@ -215,7 +234,8 @@
         "fr": "Proverbes",
         "en": "Proverbs",
         "es": "Proverbios",
-        "de": "Sprüche"
+        "de": "Sprüche",
+        "mg": "Ohabolana"
       },
       "testament": "ot",
       "chapters": 31
@@ -226,7 +246,8 @@
         "fr": "Ecclésiaste",
         "en": "Ecclesiastes",
         "es": "Eclesiastés",
-        "de": "Prediger"
+        "de": "Prediger",
+        "mg": "Mpanao amin-kevitra"
       },
       "testament": "ot",
       "chapters": 12
@@ -237,7 +258,8 @@
         "fr": "Cantique des Cantiques",
         "en": "Song of Solomon",
         "es": "Cantar",
-        "de": "Hohelied"
+        "de": "Hohelied",
+        "mg": "Tonon-kira"
       },
       "testament": "ot",
       "chapters": 8
@@ -248,7 +270,8 @@
         "fr": "Ésaïe",
         "en": "Isaiah",
         "es": "Isaías",
-        "de": "Jesaja"
+        "de": "Jesaja",
+        "mg": "Esaia"
       },
       "testament": "ot",
       "chapters": 66
@@ -259,7 +282,8 @@
         "fr": "Jérémie",
         "en": "Jeremiah",
         "es": "Jeremías",
-        "de": "Jeremia"
+        "de": "Jeremia",
+        "mg": "Jeremia"
       },
       "testament": "ot",
       "chapters": 52
@@ -270,7 +294,8 @@
         "fr": "Lamentations",
         "en": "Lamentations",
         "es": "Lamentaciones",
-        "de": "Klagelieder"
+        "de": "Klagelieder",
+        "mg": "Feno fisosotena"
       },
       "testament": "ot",
       "chapters": 5
@@ -281,7 +306,8 @@
         "fr": "Ézéchiel",
         "en": "Ezekiel",
         "es": "Ezequiel",
-        "de": "Hesekiel"
+        "de": "Hesekiel",
+        "mg": "Ezekiel"
       },
       "testament": "ot",
       "chapters": 48
@@ -292,7 +318,8 @@
         "fr": "Daniel",
         "en": "Daniel",
         "es": "Daniel",
-        "de": "Daniel"
+        "de": "Daniel",
+        "mg": "Daniel"
       },
       "testament": "ot",
       "chapters": 12
@@ -303,7 +330,8 @@
         "fr": "Osée",
         "en": "Hosea",
         "es": "Oseas",
-        "de": "Hosea"
+        "de": "Hosea",
+        "mg": "Osea"
       },
       "testament": "ot",
       "chapters": 14
@@ -314,7 +342,8 @@
         "fr": "Joël",
         "en": "Joel",
         "es": "Joel",
-        "de": "Joel"
+        "de": "Joel",
+        "mg": "Joely"
       },
       "testament": "ot",
       "chapters": 3
@@ -325,7 +354,8 @@
         "fr": "Amos",
         "en": "Amos",
         "es": "Amós",
-        "de": "Amos"
+        "de": "Amos",
+        "mg": "Amosy"
       },
       "testament": "ot",
       "chapters": 9
@@ -336,7 +366,8 @@
         "fr": "Abdias",
         "en": "Obadiah",
         "es": "Abdías",
-        "de": "Obadja"
+        "de": "Obadja",
+        "mg": "Obadia"
       },
       "testament": "ot",
       "chapters": 1
@@ -347,7 +378,8 @@
         "fr": "Jonas",
         "en": "Jonah",
         "es": "Jonás",
-        "de": "Jona"
+        "de": "Jona",
+        "mg": "Jona"
       },
       "testament": "ot",
       "chapters": 4
@@ -358,7 +390,8 @@
         "fr": "Michée",
         "en": "Micah",
         "es": "Miqueas",
-        "de": "Micha"
+        "de": "Micha",
+        "mg": "Mika"
       },
       "testament": "ot",
       "chapters": 7
@@ -369,7 +402,8 @@
         "fr": "Nahum",
         "en": "Nahum",
         "es": "Nahúm",
-        "de": "Nahum"
+        "de": "Nahum",
+        "mg": "Nahum"
       },
       "testament": "ot",
       "chapters": 3
@@ -380,7 +414,8 @@
         "fr": "Habacuc",
         "en": "Habakkuk",
         "es": "Habacuc",
-        "de": "Habakuk"
+        "de": "Habakuk",
+        "mg": "Habakoka"
       },
       "testament": "ot",
       "chapters": 3
@@ -391,7 +426,8 @@
         "fr": "Sophonie",
         "en": "Zephaniah",
         "es": "Sofonías",
-        "de": "Zefanja"
+        "de": "Zefanja",
+        "mg": "Sofonia"
       },
       "testament": "ot",
       "chapters": 3
@@ -402,7 +438,8 @@
         "fr": "Aggée",
         "en": "Haggai",
         "es": "Ageo",
-        "de": "Haggai"
+        "de": "Haggai",
+        "mg": "Hagai"
       },
       "testament": "ot",
       "chapters": 2
@@ -413,7 +450,8 @@
         "fr": "Zacharie",
         "en": "Zechariah",
         "es": "Zacarías",
-        "de": "Sacharja"
+        "de": "Sacharja",
+        "mg": "Zakaria"
       },
       "testament": "ot",
       "chapters": 14
@@ -424,7 +462,8 @@
         "fr": "Malachie",
         "en": "Malachi",
         "es": "Malaquías",
-        "de": "Maleachi"
+        "de": "Maleachi",
+        "mg": "Malakia"
       },
       "testament": "ot",
       "chapters": 4
@@ -435,7 +474,8 @@
         "fr": "Matthieu",
         "en": "Matthew",
         "es": "Mateo",
-        "de": "Matthäus"
+        "de": "Matthäus",
+        "mg": "Matiasy"
       },
       "testament": "nt",
       "chapters": 28
@@ -446,7 +486,8 @@
         "fr": "Marc",
         "en": "Mark",
         "es": "Marcos",
-        "de": "Markus"
+        "de": "Markus",
+        "mg": "Marc"
       },
       "testament": "nt",
       "chapters": 16
@@ -457,7 +498,8 @@
         "fr": "Luc",
         "en": "Luke",
         "es": "Lucas",
-        "de": "Lukas"
+        "de": "Lukas",
+        "mg": "Loaka"
       },
       "testament": "nt",
       "chapters": 24
@@ -468,7 +510,8 @@
         "fr": "Jean",
         "en": "John",
         "es": "Juan",
-        "de": "Johannes"
+        "de": "Johannes",
+        "mg": "Jaona"
       },
       "testament": "nt",
       "chapters": 21
@@ -479,7 +522,8 @@
         "fr": "Actes",
         "en": "Acts",
         "es": "Hechos",
-        "de": "Apostelgeschichte"
+        "de": "Apostelgeschichte",
+        "mg": "Asa"
       },
       "testament": "nt",
       "chapters": 28
@@ -490,7 +534,8 @@
         "fr": "Romains",
         "en": "Romans",
         "es": "Romanos",
-        "de": "Römer"
+        "de": "Römer",
+        "mg": "Romana"
       },
       "testament": "nt",
       "chapters": 16
@@ -501,7 +546,8 @@
         "fr": "1 Corinthiens",
         "en": "1 Corinthians",
         "es": "1 Corintios",
-        "de": "1. Korinther"
+        "de": "1. Korinther",
+        "mg": "1 Korintianina"
       },
       "testament": "nt",
       "chapters": 16
@@ -512,7 +558,8 @@
         "fr": "2 Corinthiens",
         "en": "2 Corinthians",
         "es": "2 Corintios",
-        "de": "2. Korinther"
+        "de": "2. Korinther",
+        "mg": "2 Korintianina"
       },
       "testament": "nt",
       "chapters": 13
@@ -523,7 +570,8 @@
         "fr": "Galates",
         "en": "Galatians",
         "es": "Gálatas",
-        "de": "Galater"
+        "de": "Galater",
+        "mg": "Galatianina"
       },
       "testament": "nt",
       "chapters": 6
@@ -534,7 +582,8 @@
         "fr": "Éphésiens",
         "en": "Ephesians",
         "es": "Efesios",
-        "de": "Epheser"
+        "de": "Epheser",
+        "mg": "Efesianina"
       },
       "testament": "nt",
       "chapters": 6
@@ -545,7 +594,8 @@
         "fr": "Philippiens",
         "en": "Philippians",
         "es": "Filipenses",
-        "de": "Philipper"
+        "de": "Philipper",
+        "mg": "Filipianina"
       },
       "testament": "nt",
       "chapters": 4
@@ -556,7 +606,8 @@
         "fr": "Colossiens",
         "en": "Colossians",
         "es": "Colosenses",
-        "de": "Kolosser"
+        "de": "Kolosser",
+        "mg": "Kolosianina"
       },
       "testament": "nt",
       "chapters": 4
@@ -567,7 +618,8 @@
         "fr": "1 Thessaloniciens",
         "en": "1 Thessalonians",
         "es": "1 Tesalonicenses",
-        "de": "1. Thessalonicher"
+        "de": "1. Thessalonicher",
+        "mg": "1 Thesalonianina"
       },
       "testament": "nt",
       "chapters": 5
@@ -578,7 +630,8 @@
         "fr": "2 Thessaloniciens",
         "en": "2 Thessalonians",
         "es": "2 Tesalonicenses",
-        "de": "2. Thessalonicher"
+        "de": "2. Thessalonicher",
+        "mg": "2 Thesalonianina"
       },
       "testament": "nt",
       "chapters": 3
@@ -589,7 +642,8 @@
         "fr": "1 Timothée",
         "en": "1 Timothy",
         "es": "1 Timoteo",
-        "de": "1. Timotheus"
+        "de": "1. Timotheus",
+        "mg": "1 Timoty"
       },
       "testament": "nt",
       "chapters": 6
@@ -600,7 +654,8 @@
         "fr": "2 Timothée",
         "en": "2 Timothy",
         "es": "2 Timoteo",
-        "de": "2. Timotheus"
+        "de": "2. Timotheus",
+        "mg": "2 Timoty"
       },
       "testament": "nt",
       "chapters": 4
@@ -611,7 +666,8 @@
         "fr": "Tite",
         "en": "Titus",
         "es": "Tito",
-        "de": "Titus"
+        "de": "Titus",
+        "mg": "Tito"
       },
       "testament": "nt",
       "chapters": 3
@@ -622,7 +678,8 @@
         "fr": "Philémon",
         "en": "Philemon",
         "es": "Filemón",
-        "de": "Philemon"
+        "de": "Philemon",
+        "mg": "Filemona"
       },
       "testament": "nt",
       "chapters": 1
@@ -633,7 +690,8 @@
         "fr": "Hébreux",
         "en": "Hebrews",
         "es": "Hebreos",
-        "de": "Hebräer"
+        "de": "Hebräer",
+        "mg": "Hebreo"
       },
       "testament": "nt",
       "chapters": 13
@@ -644,7 +702,8 @@
         "fr": "Jacques",
         "en": "James",
         "es": "Santiago",
-        "de": "Jakobus"
+        "de": "Jakobus",
+        "mg": "Jakoba"
       },
       "testament": "nt",
       "chapters": 5
@@ -655,7 +714,8 @@
         "fr": "1 Pierre",
         "en": "1 Peter",
         "es": "1 Pedro",
-        "de": "1. Petrus"
+        "de": "1. Petrus",
+        "mg": "1 Petera"
       },
       "testament": "nt",
       "chapters": 5
@@ -666,7 +726,8 @@
         "fr": "2 Pierre",
         "en": "2 Peter",
         "es": "2 Pedro",
-        "de": "2. Petrus"
+        "de": "2. Petrus",
+        "mg": "2 Petera"
       },
       "testament": "nt",
       "chapters": 3
@@ -677,7 +738,8 @@
         "fr": "1 Jean",
         "en": "1 John",
         "es": "1 Juan",
-        "de": "1. Johannes"
+        "de": "1. Johannes",
+        "mg": "1 Jaona"
       },
       "testament": "nt",
       "chapters": 5
@@ -688,7 +750,8 @@
         "fr": "2 Jean",
         "en": "2 John",
         "es": "2 Juan",
-        "de": "2. Johannes"
+        "de": "2. Johannes",
+        "mg": "2 Jaona"
       },
       "testament": "nt",
       "chapters": 1
@@ -699,7 +762,8 @@
         "fr": "3 Jean",
         "en": "3 John",
         "es": "3 Juan",
-        "de": "3. Johannes"
+        "de": "3. Johannes",
+        "mg": "3 Jaona"
       },
       "testament": "nt",
       "chapters": 1
@@ -710,7 +774,8 @@
         "fr": "Jude",
         "en": "Jude",
         "es": "Judas",
-        "de": "Judas"
+        "de": "Judas",
+        "mg": "Joda"
       },
       "testament": "nt",
       "chapters": 1
@@ -721,7 +786,8 @@
         "fr": "Apocalypse",
         "en": "Revelation",
         "es": "Apocalipsis",
-        "de": "Offenbarung"
+        "de": "Offenbarung",
+        "mg": "Apokalypsy"
       },
       "testament": "nt",
       "chapters": 22
