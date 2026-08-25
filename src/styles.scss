@@ -1,1 +1,241 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --sepia-50: #fdf8f3;
+  --sepia-100: #faf0e6;
+  --sepia-200: #f5e6d3;
+  --sepia-300: #ede0c8;
+  --sepia-400: #e6d4b8;
+  --sepia-500: #d4b896;
+  --sepia-600: #c4a07a;
+  --sepia-700: #a67c52;
+  --sepia-800: #8b6542;
+  --sepia-900: #6f4f33;
+  --sepia-950: #3d2a1a;
+
+  --bg-primary: var(--sepia-50);
+  --bg-secondary: var(--sepia-100);
+  --bg-tertiary: var(--sepia-200);
+  --bg-hover: var(--sepia-300);
+  --bg-active: var(--sepia-400);
+
+  --text-primary: var(--sepia-950);
+  --text-secondary: var(--sepia-800);
+  --text-muted: var(--sepia-600);
+
+  --border-light: var(--sepia-300);
+  --border-medium: var(--sepia-400);
+  --border-dark: var(--sepia-500);
+
+  --accent: var(--sepia-700);
+  --accent-hover: var(--sepia-800);
+  --accent-light: var(--sepia-500);
+
+  --shadow-sm: 0 1px 2px rgba(61, 42, 26, 0.08);
+  --shadow-md: 0 4px 8px rgba(61, 42, 26, 0.1);
+  --shadow-lg: 0 8px 16px rgba(61, 42, 26, 0.12);
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+
+  --titlebar-height: 40px;
+  --titlebar-bg: var(--sepia-100);
+  --titlebar-border: var(--sepia-300);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  touch-action: pan-x pan-y;
+}
+
+::selection {
+  background-color: var(--accent-light);
+  color: var(--bg-primary);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-medium);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-dark);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input {
+  font-family: inherit;
+}
+
+.app-content {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  flex: 1;
+  overflow: auto;
+}
+
+.titlebar {
+  height: var(--titlebar-height);
+  display: flex;
+  align-items: center;
+  background: var(--titlebar-bg);
+  border-bottom: 1px solid var(--titlebar-border);
+  padding: 0 12px;
+  gap: 12px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  -webkit-app-region: drag;
+}
+
+.titlebar-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 8px;
+  -webkit-app-region: drag;
+}
+
+.titlebar-icon {
+  width: 20px;
+  height: 20px;
+  color: var(--accent);
+}
+
+.titlebar-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.titlebar-spacer {
+  flex: 1;
+  -webkit-app-region: drag;
+}
+
+.titlebar-search {
+  position: relative;
+  flex: 0 0 280px;
+  max-width: 360px;
+  -webkit-app-region: no-drag;
+}
+
+.search-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  height: 28px;
+  padding: 0 10px 0 36px;
+  font-size: 12px;
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-input:hover {
+  border-color: var(--border-medium);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 20%, transparent);
+}
+
+.titlebar-window-controls {
+  display: flex;
+  gap: 4px;
+  -webkit-app-region: no-drag;
+}
+
+.window-control {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+.window-control:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.window-control.close:hover {
+  background: #c44;
+  color: white;
+}
+
+.window-control svg {
+  width: 12px;
+  height: 12px;
+}
