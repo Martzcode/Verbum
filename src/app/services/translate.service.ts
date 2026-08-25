@@ -4,7 +4,7 @@ import { SUPPORTED_LOCALES } from '../models/bible.model';
 
 @Injectable({ providedIn: 'root' })
 export class TranslateService {
-  private translations = new Map<SupportedLocale, Record<string, string>>();
+  private translations = new Map<SupportedLocale, Record<string, unknown>>();
   currentLocale = signal<SupportedLocale>('fr');
   private ready = false;
 
@@ -27,10 +27,20 @@ export class TranslateService {
     }
   }
 
+  private resolve(obj: unknown, path: string): string | undefined {
+    const keys = path.split('.');
+    let current: unknown = obj;
+    for (const key of keys) {
+      if (current == null || typeof current !== 'object') return undefined;
+      current = (current as Record<string, unknown>)[key];
+    }
+    return typeof current === 'string' ? current : undefined;
+  }
+
   t(key: string, params?: Record<string, string | number>): string {
     const locale = this.currentLocale();
     const dict = this.translations.get(locale);
-    let value = dict?.[key] ?? key;
+    let value = this.resolve(dict, key) ?? key;
     if (params) {
       for (const [k, v] of Object.entries(params)) {
         value = value.replace(`{${k}}`, String(v));

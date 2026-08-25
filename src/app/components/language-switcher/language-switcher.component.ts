@@ -1,13 +1,19 @@
 import { Component, inject, signal } from '@angular/core';
 import { TranslateService } from '../../services/translate.service';
-import { TranslatePipe } from '../../pipes/translate.pipe';
 import type { SupportedLocale } from '../../models/bible.model';
 import { SUPPORTED_LOCALES } from '../../models/bible.model';
+
+const LOCALE_NAMES: Record<SupportedLocale, string> = {
+  fr: 'Français',
+  en: 'English',
+  es: 'Español',
+  de: 'Deutsch',
+  mg: 'Malagasy',
+};
 
 @Component({
   selector: 'app-language-switcher',
   standalone: true,
-  imports: [TranslatePipe],
   template: `
     <div class="lang-switcher">
       <button class="lang-btn" (click)="toggleDropdown()">
@@ -25,7 +31,7 @@ import { SUPPORTED_LOCALES } from '../../models/bible.model';
               class="lang-option"
               [class.active]="loc === translate.currentLocale()"
               (click)="switchLocale(loc)">
-              {{ 'lang.' + loc | t }}
+              {{ localeName(loc) }}
             </button>
           }
         </div>
@@ -114,7 +120,11 @@ export class LanguageSwitcherComponent {
   isOpen = signal(false);
 
   currentLabel(): string {
-    return this.translate.t(`lang.${this.translate.currentLocale()}`);
+    return LOCALE_NAMES[this.translate.currentLocale()];
+  }
+
+  localeName(locale: SupportedLocale): string {
+    return LOCALE_NAMES[locale];
   }
 
   toggleDropdown() {

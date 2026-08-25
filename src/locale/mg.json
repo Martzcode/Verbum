@@ -1,49 +1,65 @@
 {
-  "app_name": "Verbum",
+  "app": {
+    "title": "Verbum"
+  },
+  "menu": {
+    "file": "Fichier",
+    "edit": "Fanazavana",
+    "help": "Fanamarihana",
+    "new": "Vaovao",
+    "open": "Sokafana…",
+    "save": "Tadidio",
+    "saveAs": "Tadidio amin'ny…",
+    "quit": "Miala",
+    "undo": "Averina",
+    "redo": "Averina indray",
+    "cut": "Sakamo",
+    "copy": "Adiky",
+    "paste": "Apetraho",
+    "selectAll": "Safidio daholo",
+    "about": "Momba ny Verbum",
+    "online": "Fanamarihana amin'ny tambajotra"
+  },
+  "search": {
+    "placeholder": "Tadiavy…",
+    "title": "Tadiava",
+    "noResults": "Tsy misy vokany",
+    "resultsCount": "{count} vokany",
+    "verses": "andiana"
+  },
+  "aria": {
+    "minimize": "Kitsaho",
+    "maximize": "Apetraho / Azafaho",
+    "close": "Akano"
+  },
   "nav": {
     "home": "Antrano",
     "bible": "Baiboly",
     "search": "Tadiava",
     "favorites": "Fifanakalozana"
   },
-  "home": {
-    "welcome": "Tongasoa eto amin'i Verbum",
-    "description": "Vakio ny Baiboly amin'ny teny amindray.",
-    "start_reading": "Manomboka ny famakiana",
-    "recent_chapters": "Lesona vao gena"
-  },
-  "book_list": {
-    "old_testament": "Fidirana Tany",
-    "new_testament": "Fivoarana Vaovao"
-  },
-  "reader": {
-    "chapter": "Lesona",
-    "no_verses": "Tsy misy andiana",
-    "favorites": {
-      "add": "Apetraho amin'ny fisisiany",
-      "remove": "Esory amin'ny fisisiany",
-      "added": "Napetraka tao amin'ny fisisiany",
-      "removed": "Nesoriany tao amin'ny fisisiany"
-    }
-  },
-  "search": {
-    "placeholder": "Tadiavy ny Baiboly...",
-    "results": "Vokany",
-    "no_results": "Tsy misy vokany",
-    "searching": "Mitsingevana..."
+  "bible": {
+    "oldTestament": "Fidirana Tany",
+    "newTestament": "Fivoarana Vaovao",
+    "chapters": "lesona",
+    "verse": "v.",
+    "loading": "Mitsingevana…",
+    "noResults": "Tsy misy vokany",
+    "copyVerse": "Adiky ny andiana",
+    "addFavorite": "Apetraho amin'ny fisisiany",
+    "removeFavorite": "Esory amin'ny fisisiany",
+    "copied": "Nadiky!"
   },
   "favorites": {
     "title": "Fifanakalozana",
     "empty": "Tsy misy fifanakalozana",
-    "add_some": "Mampidiro ny Baiboly ary apetrako izay tianao",
-    "clear_all": "Fafao daholo",
-    "confirm_clear": "Tena te hanafafa ny fifanakalozana rehetra ve ianao?"
+    "emptyHint": "Tsindrio ny sofina ao akaikin'ny andiana mba hampetraka azy eto."
   },
-  "version": {
-    "ls1910": "Louis Segond 1910",
-    "kjv": "King James Version",
-    "rv1909": "Reina Valera 1909",
-    "luther1912": "Luther Bibel 1912",
-    "mg1865": "Baiboly Malagasy 1865"
+  "home": {
+    "welcome": "Tongasoa eto amin'i Verbum",
+    "subtitle": "Vakio ny tenin'Andriamanitra amin'ny fahamoramana",
+    "lastRead": "Vakivaky vao gena",
+    "continue": "Ampitohizo ny fakiana",
+    "startReading": "Manomboka ny fakiana"
   }
 }
