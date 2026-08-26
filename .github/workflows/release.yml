@@ -69,12 +69,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Update version
-        shell: bash
-        run: |
-          jq --arg v "${{ needs.version.outputs.version }}" '.version = $v' \
-            src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
-
       - name: Build
         run: npx tauri build
 
@@ -125,11 +119,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Update version
-        run: |
-          jq --arg v "${{ needs.version.outputs.version }}" '.version = $v' \
-            src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
-
       - name: Build
         run: npx tauri build
 
@@ -170,11 +159,6 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Update version
-        run: |
-          jq --arg v "${{ needs.version.outputs.version }}" '.version = $v' \
-            src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
 
       - name: Build
         run: npx tauri build --target universal-apple-darwin
