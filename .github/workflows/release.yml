@@ -37,9 +37,11 @@ jobs:
           NUM=$(printf '%02d' $((COUNT + 1)))
           VERSION="${PREFIX}.${NUM}"
 
-          # Tauri requires semver (no leading zeros)
+          # Windows MSI/NSIS requires each version component <= 255
+          # Map YYYY.MM.xx -> 0.YY.MM.xx
           IFS='.' read -r Y M D <<< "$VERSION"
-          VERSION_SEMVER="${Y}.$((10#${M})).$((10#${D}))"
+          SHORT_YEAR="${Y: -2}"
+          VERSION_SEMVER="$((10#${SHORT_YEAR})).$((10#${M})).$((10#${D}))"
 
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             TAG="v${VERSION}-pr-${{ github.event.number }}"
