@@ -49,9 +49,9 @@ const LOCALE_NAMES: Record<SupportedLocale, string> = {
     .lang-btn {
       display: flex;
       align-items: center;
-      gap: 4px;
-      padding: 4px 8px;
-      font-size: 11px;
+      gap: 3px;
+      padding: 3px 6px;
+      font-size: 10px;
       font-weight: 500;
       color: var(--text-secondary);
       border: 1px solid var(--border-light);
@@ -62,8 +62,8 @@ const LOCALE_NAMES: Record<SupportedLocale, string> = {
     }
 
     .lang-btn svg {
-      width: 14px;
-      height: 14px;
+      width: 12px;
+      height: 12px;
     }
 
     .lang-btn:hover {
