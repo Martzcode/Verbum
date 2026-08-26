@@ -1,0 +1,65 @@
+{
+  "app": {
+    "title": "Verbum"
+  },
+  "menu": {
+    "file": "File",
+    "edit": "Edit",
+    "help": "Help",
+    "new": "New",
+    "open": "Open…",
+    "save": "Save",
+    "saveAs": "Save As…",
+    "quit": "Quit",
+    "undo": "Undo",
+    "redo": "Redo",
+    "cut": "Cut",
+    "copy": "Copy",
+    "paste": "Paste",
+    "selectAll": "Select All",
+    "about": "About Verbum",
+    "online": "Online Help"
+  },
+  "search": {
+    "placeholder": "Search…",
+    "title": "Search",
+    "noResults": "No results for this search",
+    "resultsCount": "{count} result(s) found",
+    "verses": "verses"
+  },
+  "aria": {
+    "minimize": "Minimize",
+    "maximize": "Maximize/Restore",
+    "close": "Close"
+  },
+  "nav": {
+    "home": "Home",
+    "bible": "Bible",
+    "search": "Search",
+    "favorites": "Favorites"
+  },
+  "bible": {
+    "oldTestament": "Old Testament",
+    "newTestament": "New Testament",
+    "chapters": "chapters",
+    "verse": "v.",
+    "loading": "Loading…",
+    "noResults": "No results found",
+    "copyVerse": "Copy verse",
+    "addFavorite": "Add to favorites",
+    "removeFavorite": "Remove from favorites",
+    "copied": "Copied!"
+  },
+  "favorites": {
+    "title": "My Favorites",
+    "empty": "No favorites yet",
+    "emptyHint": "Tap the heart icon near a verse to add it here."
+  },
+  "home": {
+    "welcome": "Welcome to Verbum",
+    "subtitle": "Read the Word of God in peace",
+    "lastRead": "Last Reading",
+    "continue": "Continue Reading",
+    "startReading": "Start Reading"
+  }
+}

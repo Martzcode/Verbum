@@ -1,0 +1,65 @@
+{
+  "app": {
+    "title": "Verbum"
+  },
+  "menu": {
+    "file": "Archivo",
+    "edit": "Edición",
+    "help": "Ayuda",
+    "new": "Nuevo",
+    "open": "Abrir…",
+    "save": "Guardar",
+    "saveAs": "Guardar como…",
+    "quit": "Salir",
+    "undo": "Deshacer",
+    "redo": "Rehacer",
+    "cut": "Cortar",
+    "copy": "Copiar",
+    "paste": "Pegar",
+    "selectAll": "Seleccionar todo",
+    "about": "Acerca de Verbum",
+    "online": "Ayuda en línea"
+  },
+  "search": {
+    "placeholder": "Buscar…",
+    "title": "Buscar",
+    "noResults": "Sin resultados para esta búsqueda",
+    "resultsCount": "{count} resultado(s) encontrado(s)",
+    "verses": "versículos"
+  },
+  "aria": {
+    "minimize": "Minimizar",
+    "maximize": "Maximizar/Restaurar",
+    "close": "Cerrar"
+  },
+  "nav": {
+    "home": "Inicio",
+    "bible": "Biblia",
+    "search": "Buscar",
+    "favorites": "Favoritos"
+  },
+  "bible": {
+    "oldTestament": "Antiguo Testamento",
+    "newTestament": "Nuevo Testamento",
+    "chapters": "capítulos",
+    "verse": "v.",
+    "loading": "Cargando…",
+    "noResults": "No se encontraron resultados",
+    "copyVerse": "Copiar versículo",
+    "addFavorite": "Añadir a favoritos",
+    "removeFavorite": "Eliminar de favoritos",
+    "copied": "¡Copiado!"
+  },
+  "favorites": {
+    "title": "Mis Favoritos",
+    "empty": "Sin favoritos aún",
+    "emptyHint": "Toca el icono del corazón junto a un versículo para añadirlo aquí."
+  },
+  "home": {
+    "welcome": "Bienvenido a Verbum",
+    "subtitle": "Lee la Palabra de Dios en paz",
+    "lastRead": "Última Lectura",
+    "continue": "Continuar Leyendo",
+    "startReading": "Comenzar a Leer"
+  }
+}

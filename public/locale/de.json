@@ -1,0 +1,65 @@
+{
+  "app": {
+    "title": "Verbum"
+  },
+  "menu": {
+    "file": "Datei",
+    "edit": "Bearbeiten",
+    "help": "Hilfe",
+    "new": "Neu",
+    "open": "Öffnen…",
+    "save": "Speichern",
+    "saveAs": "Speichern unter…",
+    "quit": "Beenden",
+    "undo": "Rückgängig",
+    "redo": "Wiederholen",
+    "cut": "Ausschneiden",
+    "copy": "Kopieren",
+    "paste": "Einfügen",
+    "selectAll": "Alles auswählen",
+    "about": "Über Verbum",
+    "online": "Hilfe"
+  },
+  "search": {
+    "placeholder": "Suchen…",
+    "title": "Suchen",
+    "noResults": "Keine Ergebnisse für diese Suche",
+    "resultsCount": "{count} Ergebnis(se) gefunden",
+    "verses": "Verse"
+  },
+  "aria": {
+    "minimize": "Minimieren",
+    "maximize": "Maximieren/Wiederherstellen",
+    "close": "Schließen"
+  },
+  "nav": {
+    "home": "Startseite",
+    "bible": "Bibel",
+    "search": "Suchen",
+    "favorites": "Favoriten"
+  },
+  "bible": {
+    "oldTestament": "Altes Testament",
+    "newTestament": "Neues Testament",
+    "chapters": "Kapitel",
+    "verse": "V.",
+    "loading": "Laden…",
+    "noResults": "Keine Ergebnisse gefunden",
+    "copyVerse": "Vers kopieren",
+    "addFavorite": "Zu Favoriten hinzufügen",
+    "removeFavorite": "Aus Favoriten entfernen",
+    "copied": "Kopiert!"
+  },
+  "favorites": {
+    "title": "Meine Favoriten",
+    "empty": "Noch keine Favoriten",
+    "emptyHint": "Tippen Sie auf das Herz-Symbol neben einem Vers, um ihn hier hinzuzufügen."
+  },
+  "home": {
+    "welcome": "Willkommen bei Verbum",
+    "subtitle": "Lesen Sie das Wort Gottes in Ruhe",
+    "lastRead": "Letzte Lektüre",
+    "continue": "Weiterlesen",
+    "startReading": "Mit dem Lesen beginnen"
+  }
+}

@@ -1,0 +1,796 @@
+{
+  "books": [
+    {
+      "id": "genesis",
+      "name": {
+        "fr": "Genèse",
+        "en": "Genesis",
+        "es": "Génesis",
+        "de": "1. Mose",
+        "mg": "Genesis"
+      },
+      "testament": "ot",
+      "chapters": 50
+    },
+    {
+      "id": "exodus",
+      "name": {
+        "fr": "Exode",
+        "en": "Exodus",
+        "es": "Éxodo",
+        "de": "2. Mose",
+        "mg": "Eksoda"
+      },
+      "testament": "ot",
+      "chapters": 40
+    },
+    {
+      "id": "leviticus",
+      "name": {
+        "fr": "Lévitique",
+        "en": "Leviticus",
+        "es": "Levítico",
+        "de": "3. Mose",
+        "mg": "Levitika"
+      },
+      "testament": "ot",
+      "chapters": 27
+    },
+    {
+      "id": "numbers",
+      "name": {
+        "fr": "Nombres",
+        "en": "Numbers",
+        "es": "Números",
+        "de": "4. Mose",
+        "mg": "Nomina"
+      },
+      "testament": "ot",
+      "chapters": 36
+    },
+    {
+      "id": "deuteronomy",
+      "name": {
+        "fr": "Deutéronome",
+        "en": "Deuteronomy",
+        "es": "Deuteronomio",
+        "de": "5. Mose",
+        "mg": "Deoteronomia"
+      },
+      "testament": "ot",
+      "chapters": 34
+    },
+    {
+      "id": "joshua",
+      "name": {
+        "fr": "Josué",
+        "en": "Joshua",
+        "es": "Josué",
+        "de": "Josua",
+        "mg": "Josoa"
+      },
+      "testament": "ot",
+      "chapters": 24
+    },
+    {
+      "id": "judges",
+      "name": {
+        "fr": "Juges",
+        "en": "Judges",
+        "es": "Jueces",
+        "de": "Richter",
+        "mg": "Mpanjaka"
+      },
+      "testament": "ot",
+      "chapters": 21
+    },
+    {
+      "id": "ruth",
+      "name": {
+        "fr": "Ruth",
+        "en": "Ruth",
+        "es": "Rut",
+        "de": "Ruth",
+        "mg": "Rota"
+      },
+      "testament": "ot",
+      "chapters": 4
+    },
+    {
+      "id": "1-samuel",
+      "name": {
+        "fr": "1 Samuel",
+        "en": "1 Samuel",
+        "es": "1 Samuel",
+        "de": "1. Samuel",
+        "mg": "1 Samuel"
+      },
+      "testament": "ot",
+      "chapters": 31
+    },
+    {
+      "id": "2-samuel",
+      "name": {
+        "fr": "2 Samuel",
+        "en": "2 Samuel",
+        "es": "2 Samuel",
+        "de": "2. Samuel",
+        "mg": "2 Samuel"
+      },
+      "testament": "ot",
+      "chapters": 24
+    },
+    {
+      "id": "1-kings",
+      "name": {
+        "fr": "1 Rois",
+        "en": "1 Kings",
+        "es": "1 Reyes",
+        "de": "1. Könige",
+        "mg": "1 Mpanjaka"
+      },
+      "testament": "ot",
+      "chapters": 22
+    },
+    {
+      "id": "2-kings",
+      "name": {
+        "fr": "2 Rois",
+        "en": "2 Kings",
+        "es": "2 Reyes",
+        "de": "2. Könige",
+        "mg": "2 Mpanjaka"
+      },
+      "testament": "ot",
+      "chapters": 25
+    },
+    {
+      "id": "1-chronicles",
+      "name": {
+        "fr": "1 Chroniques",
+        "en": "1 Chronicles",
+        "es": "1 Crónicas",
+        "de": "1. Chronik",
+        "mg": "1 Tantara"
+      },
+      "testament": "ot",
+      "chapters": 29
+    },
+    {
+      "id": "2-chronicles",
+      "name": {
+        "fr": "2 Chroniques",
+        "en": "2 Chronicles",
+        "es": "2 Crónicas",
+        "de": "2. Chronik",
+        "mg": "2 Tantara"
+      },
+      "testament": "ot",
+      "chapters": 36
+    },
+    {
+      "id": "ezra",
+      "name": {
+        "fr": "Esdras",
+        "en": "Ezra",
+        "es": "Esdras",
+        "de": "Esra",
+        "mg": "Ezra"
+      },
+      "testament": "ot",
+      "chapters": 10
+    },
+    {
+      "id": "nehemiah",
+      "name": {
+        "fr": "Néhémie",
+        "en": "Nehemiah",
+        "es": "Nehemías",
+        "de": "Nehemia",
+        "mg": "Nehemia"
+      },
+      "testament": "ot",
+      "chapters": 13
+    },
+    {
+      "id": "esther",
+      "name": {
+        "fr": "Esther",
+        "en": "Esther",
+        "es": "Ester",
+        "de": "Esther",
+        "mg": "Ester"
+      },
+      "testament": "ot",
+      "chapters": 10
+    },
+    {
+      "id": "job",
+      "name": {
+        "fr": "Job",
+        "en": "Job",
+        "es": "Job",
+        "de": "Hiob",
+        "mg": "Job"
+      },
+      "testament": "ot",
+      "chapters": 42
+    },
+    {
+      "id": "psalms",
+      "name": {
+        "fr": "Psaumes",
+        "en": "Psalms",
+        "es": "Salmos",
+        "de": "Psalmen",
+        "mg": "Dontoam-baratra"
+      },
+      "testament": "ot",
+      "chapters": 150
+    },
+    {
+      "id": "proverbs",
+      "name": {
+        "fr": "Proverbes",
+        "en": "Proverbs",
+        "es": "Proverbios",
+        "de": "Sprüche",
+        "mg": "Ohabolana"
+      },
+      "testament": "ot",
+      "chapters": 31
+    },
+    {
+      "id": "ecclesiastes",
+      "name": {
+        "fr": "Ecclésiaste",
+        "en": "Ecclesiastes",
+        "es": "Eclesiastés",
+        "de": "Prediger",
+        "mg": "Mpanao amin-kevitra"
+      },
+      "testament": "ot",
+      "chapters": 12
+    },
+    {
+      "id": "song-of-solomon",
+      "name": {
+        "fr": "Cantique des Cantiques",
+        "en": "Song of Solomon",
+        "es": "Cantar",
+        "de": "Hohelied",
+        "mg": "Tonon-kira"
+      },
+      "testament": "ot",
+      "chapters": 8
+    },
+    {
+      "id": "isaiah",
+      "name": {
+        "fr": "Ésaïe",
+        "en": "Isaiah",
+        "es": "Isaías",
+        "de": "Jesaja",
+        "mg": "Esaia"
+      },
+      "testament": "ot",
+      "chapters": 66
+    },
+    {
+      "id": "jeremiah",
+      "name": {
+        "fr": "Jérémie",
+        "en": "Jeremiah",
+        "es": "Jeremías",
+        "de": "Jeremia",
+        "mg": "Jeremia"
+      },
+      "testament": "ot",
+      "chapters": 52
+    },
+    {
+      "id": "lamentations",
+      "name": {
+        "fr": "Lamentations",
+        "en": "Lamentations",
+        "es": "Lamentaciones",
+        "de": "Klagelieder",
+        "mg": "Feno fisosotena"
+      },
+      "testament": "ot",
+      "chapters": 5
+    },
+    {
+      "id": "ezekiel",
+      "name": {
+        "fr": "Ézéchiel",
+        "en": "Ezekiel",
+        "es": "Ezequiel",
+        "de": "Hesekiel",
+        "mg": "Ezekiel"
+      },
+      "testament": "ot",
+      "chapters": 48
+    },
+    {
+      "id": "daniel",
+      "name": {
+        "fr": "Daniel",
+        "en": "Daniel",
+        "es": "Daniel",
+        "de": "Daniel",
+        "mg": "Daniel"
+      },
+      "testament": "ot",
+      "chapters": 12
+    },
+    {
+      "id": "hosea",
+      "name": {
+        "fr": "Osée",
+        "en": "Hosea",
+        "es": "Oseas",
+        "de": "Hosea",
+        "mg": "Osea"
+      },
+      "testament": "ot",
+      "chapters": 14
+    },
+    {
+      "id": "joel",
+      "name": {
+        "fr": "Joël",
+        "en": "Joel",
+        "es": "Joel",
+        "de": "Joel",
+        "mg": "Joely"
+      },
+      "testament": "ot",
+      "chapters": 3
+    },
+    {
+      "id": "amos",
+      "name": {
+        "fr": "Amos",
+        "en": "Amos",
+        "es": "Amós",
+        "de": "Amos",
+        "mg": "Amosy"
+      },
+      "testament": "ot",
+      "chapters": 9
+    },
+    {
+      "id": "obadiah",
+      "name": {
+        "fr": "Abdias",
+        "en": "Obadiah",
+        "es": "Abdías",
+        "de": "Obadja",
+        "mg": "Obadia"
+      },
+      "testament": "ot",
+      "chapters": 1
+    },
+    {
+      "id": "jonah",
+      "name": {
+        "fr": "Jonas",
+        "en": "Jonah",
+        "es": "Jonás",
+        "de": "Jona",
+        "mg": "Jona"
+      },
+      "testament": "ot",
+      "chapters": 4
+    },
+    {
+      "id": "micah",
+      "name": {
+        "fr": "Michée",
+        "en": "Micah",
+        "es": "Miqueas",
+        "de": "Micha",
+        "mg": "Mika"
+      },
+      "testament": "ot",
+      "chapters": 7
+    },
+    {
+      "id": "nahum",
+      "name": {
+        "fr": "Nahum",
+        "en": "Nahum",
+        "es": "Nahúm",
+        "de": "Nahum",
+        "mg": "Nahum"
+      },
+      "testament": "ot",
+      "chapters": 3
+    },
+    {
+      "id": "habakkuk",
+      "name": {
+        "fr": "Habacuc",
+        "en": "Habakkuk",
+        "es": "Habacuc",
+        "de": "Habakuk",
+        "mg": "Habakoka"
+      },
+      "testament": "ot",
+      "chapters": 3
+    },
+    {
+      "id": "zephaniah",
+      "name": {
+        "fr": "Sophonie",
+        "en": "Zephaniah",
+        "es": "Sofonías",
+        "de": "Zefanja",
+        "mg": "Sofonia"
+      },
+      "testament": "ot",
+      "chapters": 3
+    },
+    {
+      "id": "haggai",
+      "name": {
+        "fr": "Aggée",
+        "en": "Haggai",
+        "es": "Ageo",
+        "de": "Haggai",
+        "mg": "Hagai"
+      },
+      "testament": "ot",
+      "chapters": 2
+    },
+    {
+      "id": "zechariah",
+      "name": {
+        "fr": "Zacharie",
+        "en": "Zechariah",
+        "es": "Zacarías",
+        "de": "Sacharja",
+        "mg": "Zakaria"
+      },
+      "testament": "ot",
+      "chapters": 14
+    },
+    {
+      "id": "malachi",
+      "name": {
+        "fr": "Malachie",
+        "en": "Malachi",
+        "es": "Malaquías",
+        "de": "Maleachi",
+        "mg": "Malakia"
+      },
+      "testament": "ot",
+      "chapters": 4
+    },
+    {
+      "id": "matthew",
+      "name": {
+        "fr": "Matthieu",
+        "en": "Matthew",
+        "es": "Mateo",
+        "de": "Matthäus",
+        "mg": "Matiasy"
+      },
+      "testament": "nt",
+      "chapters": 28
+    },
+    {
+      "id": "mark",
+      "name": {
+        "fr": "Marc",
+        "en": "Mark",
+        "es": "Marcos",
+        "de": "Markus",
+        "mg": "Marc"
+      },
+      "testament": "nt",
+      "chapters": 16
+    },
+    {
+      "id": "luke",
+      "name": {
+        "fr": "Luc",
+        "en": "Luke",
+        "es": "Lucas",
+        "de": "Lukas",
+        "mg": "Loaka"
+      },
+      "testament": "nt",
+      "chapters": 24
+    },
+    {
+      "id": "john",
+      "name": {
+        "fr": "Jean",
+        "en": "John",
+        "es": "Juan",
+        "de": "Johannes",
+        "mg": "Jaona"
+      },
+      "testament": "nt",
+      "chapters": 21
+    },
+    {
+      "id": "acts",
+      "name": {
+        "fr": "Actes",
+        "en": "Acts",
+        "es": "Hechos",
+        "de": "Apostelgeschichte",
+        "mg": "Asa"
+      },
+      "testament": "nt",
+      "chapters": 28
+    },
+    {
+      "id": "romans",
+      "name": {
+        "fr": "Romains",
+        "en": "Romans",
+        "es": "Romanos",
+        "de": "Römer",
+        "mg": "Romana"
+      },
+      "testament": "nt",
+      "chapters": 16
+    },
+    {
+      "id": "1-corinthians",
+      "name": {
+        "fr": "1 Corinthiens",
+        "en": "1 Corinthians",
+        "es": "1 Corintios",
+        "de": "1. Korinther",
+        "mg": "1 Korintianina"
+      },
+      "testament": "nt",
+      "chapters": 16
+    },
+    {
+      "id": "2-corinthians",
+      "name": {
+        "fr": "2 Corinthiens",
+        "en": "2 Corinthians",
+        "es": "2 Corintios",
+        "de": "2. Korinther",
+        "mg": "2 Korintianina"
+      },
+      "testament": "nt",
+      "chapters": 13
+    },
+    {
+      "id": "galatians",
+      "name": {
+        "fr": "Galates",
+        "en": "Galatians",
+        "es": "Gálatas",
+        "de": "Galater",
+        "mg": "Galatianina"
+      },
+      "testament": "nt",
+      "chapters": 6
+    },
+    {
+      "id": "ephesians",
+      "name": {
+        "fr": "Éphésiens",
+        "en": "Ephesians",
+        "es": "Efesios",
+        "de": "Epheser",
+        "mg": "Efesianina"
+      },
+      "testament": "nt",
+      "chapters": 6
+    },
+    {
+      "id": "philippians",
+      "name": {
+        "fr": "Philippiens",
+        "en": "Philippians",
+        "es": "Filipenses",
+        "de": "Philipper",
+        "mg": "Filipianina"
+      },
+      "testament": "nt",
+      "chapters": 4
+    },
+    {
+      "id": "colossians",
+      "name": {
+        "fr": "Colossiens",
+        "en": "Colossians",
+        "es": "Colosenses",
+        "de": "Kolosser",
+        "mg": "Kolosianina"
+      },
+      "testament": "nt",
+      "chapters": 4
+    },
+    {
+      "id": "1-thessalonians",
+      "name": {
+        "fr": "1 Thessaloniciens",
+        "en": "1 Thessalonians",
+        "es": "1 Tesalonicenses",
+        "de": "1. Thessalonicher",
+        "mg": "1 Thesalonianina"
+      },
+      "testament": "nt",
+      "chapters": 5
+    },
+    {
+      "id": "2-thessalonians",
+      "name": {
+        "fr": "2 Thessaloniciens",
+        "en": "2 Thessalonians",
+        "es": "2 Tesalonicenses",
+        "de": "2. Thessalonicher",
+        "mg": "2 Thesalonianina"
+      },
+      "testament": "nt",
+      "chapters": 3
+    },
+    {
+      "id": "1-timothy",
+      "name": {
+        "fr": "1 Timothée",
+        "en": "1 Timothy",
+        "es": "1 Timoteo",
+        "de": "1. Timotheus",
+        "mg": "1 Timoty"
+      },
+      "testament": "nt",
+      "chapters": 6
+    },
+    {
+      "id": "2-timothy",
+      "name": {
+        "fr": "2 Timothée",
+        "en": "2 Timothy",
+        "es": "2 Timoteo",
+        "de": "2. Timotheus",
+        "mg": "2 Timoty"
+      },
+      "testament": "nt",
+      "chapters": 4
+    },
+    {
+      "id": "titus",
+      "name": {
+        "fr": "Tite",
+        "en": "Titus",
+        "es": "Tito",
+        "de": "Titus",
+        "mg": "Tito"
+      },
+      "testament": "nt",
+      "chapters": 3
+    },
+    {
+      "id": "philemon",
+      "name": {
+        "fr": "Philémon",
+        "en": "Philemon",
+        "es": "Filemón",
+        "de": "Philemon",
+        "mg": "Filemona"
+      },
+      "testament": "nt",
+      "chapters": 1
+    },
+    {
+      "id": "hebrews",
+      "name": {
+        "fr": "Hébreux",
+        "en": "Hebrews",
+        "es": "Hebreos",
+        "de": "Hebräer",
+        "mg": "Hebreo"
+      },
+      "testament": "nt",
+      "chapters": 13
+    },
+    {
+      "id": "james",
+      "name": {
+        "fr": "Jacques",
+        "en": "James",
+        "es": "Santiago",
+        "de": "Jakobus",
+        "mg": "Jakoba"
+      },
+      "testament": "nt",
+      "chapters": 5
+    },
+    {
+      "id": "1-peter",
+      "name": {
+        "fr": "1 Pierre",
+        "en": "1 Peter",
+        "es": "1 Pedro",
+        "de": "1. Petrus",
+        "mg": "1 Petera"
+      },
+      "testament": "nt",
+      "chapters": 5
+    },
+    {
+      "id": "2-peter",
+      "name": {
+        "fr": "2 Pierre",
+        "en": "2 Peter",
+        "es": "2 Pedro",
+        "de": "2. Petrus",
+        "mg": "2 Petera"
+      },
+      "testament": "nt",
+      "chapters": 3
+    },
+    {
+      "id": "1-john",
+      "name": {
+        "fr": "1 Jean",
+        "en": "1 John",
+        "es": "1 Juan",
+        "de": "1. Johannes",
+        "mg": "1 Jaona"
+      },
+      "testament": "nt",
+      "chapters": 5
+    },
+    {
+      "id": "2-john",
+      "name": {
+        "fr": "2 Jean",
+        "en": "2 John",
+        "es": "2 Juan",
+        "de": "2. Johannes",
+        "mg": "2 Jaona"
+      },
+      "testament": "nt",
+      "chapters": 1
+    },
+    {
+      "id": "3-john",
+      "name": {
+        "fr": "3 Jean",
+        "en": "3 John",
+        "es": "3 Juan",
+        "de": "3. Johannes",
+        "mg": "3 Jaona"
+      },
+      "testament": "nt",
+      "chapters": 1
+    },
+    {
+      "id": "jude",
+      "name": {
+        "fr": "Jude",
+        "en": "Jude",
+        "es": "Judas",
+        "de": "Judas",
+        "mg": "Joda"
+      },
+      "testament": "nt",
+      "chapters": 1
+    },
+    {
+      "id": "revelation",
+      "name": {
+        "fr": "Apocalypse",
+        "en": "Revelation",
+        "es": "Apocalipsis",
+        "de": "Offenbarung",
+        "mg": "Apokalypsy"
+      },
+      "testament": "nt",
+      "chapters": 22
+    }
+  ]
+}
