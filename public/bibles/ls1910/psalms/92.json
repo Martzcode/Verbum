@@ -1,1 +1,67 @@
-{"book":"Psalms","bookId":"psalms","chapter":92,"verses":[{"verse":1,"text":"¶ Psaume. Cantique pour le jour du sabbat. Il est beau de louer l'Eternel, Et de célébrer ton nom, ô Très-Haut!"},{"verse":2,"text":"D'annoncer le matin ta bonté, Et ta fidélité pendant les nuits,"},{"verse":3,"text":"Sur l'instrument à dix cordes et sur le luth, Aux sons de la harpe."},{"verse":4,"text":"Tu me réjouis par tes oeuvres, ô Eternel! Et je chante avec allégresse l'ouvrage de tes mains."},{"verse":5,"text":"Que tes oeuvres sont grandes, ô Eternel! Que tes pensées sont profondes!"},{"verse":6,"text":"L'homme stupide n'y connaît rien, Et l'insensé n'y prend point garde."},{"verse":7,"text":"¶ Si les méchants croissent comme l'herbe, Si tous ceux qui font le mal fleurissent, C'est pour être anéantis à jamais."},{"verse":8,"text":"Mais toi, tu es le Très-Haut, A perpétuité, ô Eternel!"},{"verse":9,"text":"Car voici, tes ennemis, ô Eternel! Car voici, tes ennemis périssent; Tous ceux qui font le mal sont dispersés."},{"verse":10,"text":"Et tu me donnes la force du buffle; Je suis arrosé avec une huile fraîche."},{"verse":11,"text":"Mon oeil se plaît à contempler mes ennemis, Et mon oreille à entendre mes méchants adversaires."},{"verse":12,"text":"Les justes croissent comme le palmier, Ils s'élèvent comme le cèdre du Liban."},{"verse":13,"text":"Plantés dans la maison de l'Eternel, Ils prospèrent dans les parvis de notre Dieu;"},{"verse":14,"text":"Ils portent encore des fruits dans la vieillesse, Ils sont pleins de sève et verdoyants,"},{"verse":15,"text":"Pour faire connaître que l'Eternel est juste. Il est mon rocher, et il n'y a point en lui d'iniquité."}]}
+{
+  "book": "Psalms",
+  "bookId": "psalms",
+  "chapter": 92,
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Psaume. Cantique pour le jour du sabbat. Il est beau de louer l'Eternel, Et de célébrer ton nom, ô Très-Haut!"
+    },
+    {
+      "verse": 2,
+      "text": "D'annoncer le matin ta bonté, Et ta fidélité pendant les nuits,"
+    },
+    {
+      "verse": 3,
+      "text": "Sur l'instrument à dix cordes et sur le luth, Aux sons de la harpe."
+    },
+    {
+      "verse": 4,
+      "text": "Tu me réjouis par tes oeuvres, ô Eternel! Et je chante avec allégresse l'ouvrage de tes mains."
+    },
+    {
+      "verse": 5,
+      "text": "Que tes oeuvres sont grandes, ô Eternel! Que tes pensées sont profondes!"
+    },
+    {
+      "verse": 6,
+      "text": "L'homme stupide n'y connaît rien, Et l'insensé n'y prend point garde."
+    },
+    {
+      "verse": 7,
+      "text": "Si les méchants croissent comme l'herbe, Si tous ceux qui font le mal fleurissent, C'est pour être anéantis à jamais."
+    },
+    {
+      "verse": 8,
+      "text": "Mais toi, tu es le Très-Haut, A perpétuité, ô Eternel!"
+    },
+    {
+      "verse": 9,
+      "text": "Car voici, tes ennemis, ô Eternel! Car voici, tes ennemis périssent; Tous ceux qui font le mal sont dispersés."
+    },
+    {
+      "verse": 10,
+      "text": "Et tu me donnes la force du buffle; Je suis arrosé avec une huile fraîche."
+    },
+    {
+      "verse": 11,
+      "text": "Mon oeil se plaît à contempler mes ennemis, Et mon oreille à entendre mes méchants adversaires."
+    },
+    {
+      "verse": 12,
+      "text": "Les justes croissent comme le palmier, Ils s'élèvent comme le cèdre du Liban."
+    },
+    {
+      "verse": 13,
+      "text": "Plantés dans la maison de l'Eternel, Ils prospèrent dans les parvis de notre Dieu;"
+    },
+    {
+      "verse": 14,
+      "text": "Ils portent encore des fruits dans la vieillesse, Ils sont pleins de sève et verdoyants,"
+    },
+    {
+      "verse": 15,
+      "text": "Pour faire connaître que l'Eternel est juste. Il est mon rocher, et il n'y a point en lui d'iniquité."
+    }
+  ]
+}

@@ -1,1 +1,59 @@
-{"book":"Psalms","bookId":"psalms","chapter":85,"verses":[{"verse":1,"text":"¶ Au chef des chantres. Des fils de Koré. Psaume. Tu as été favorable à ton pays, ô Eternel! Tu as ramené les captifs de Jacob;"},{"verse":2,"text":"Tu as pardonné l'iniquité de ton peuple, Tu as couvert tous ses péchés; Pause."},{"verse":3,"text":"Tu as retiré toute ta fureur, Tu es revenu de l'ardeur de ta colère."},{"verse":4,"text":"Rétablis-nous, Dieu de notre salut! Cesse ton indignation contre nous!"},{"verse":5,"text":"T'irriteras-tu contre nous à jamais? Prolongeras-tu ta colère éternellement?"},{"verse":6,"text":"Ne nous rendras-tu pas à la vie, Afin que ton peuple se réjouisse en toi?"},{"verse":7,"text":"Eternel! fais-nous voir ta bonté, Et accorde-nous ton salut!"},{"verse":8,"text":"¶ J'écouterai ce que dit Dieu, l'Eternel; Car il parle de paix à son peuple et à ses fidèles, Pourvu qu'ils ne retombent pas dans la folie."},{"verse":9,"text":"Oui, son salut est près de ceux qui le craignent, Afin que la gloire habite dans notre pays."},{"verse":10,"text":"La bonté et la fidélité se rencontrent, La justice et la paix s'embrassent;"},{"verse":11,"text":"La fidélité germe de la terre, Et la justice regarde du haut des cieux."},{"verse":12,"text":"L'Eternel aussi accordera le bonheur, Et notre terre donnera ses fruits."},{"verse":13,"text":"La justice marchera devant lui, Et imprimera ses pas sur le chemin."}]}
+{
+  "book": "Psalms",
+  "bookId": "psalms",
+  "chapter": 85,
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Au chef des chantres. Des fils de Koré. Psaume. Tu as été favorable à ton pays, ô Eternel! Tu as ramené les captifs de Jacob;"
+    },
+    {
+      "verse": 2,
+      "text": "Tu as pardonné l'iniquité de ton peuple, Tu as couvert tous ses péchés; Pause."
+    },
+    {
+      "verse": 3,
+      "text": "Tu as retiré toute ta fureur, Tu es revenu de l'ardeur de ta colère."
+    },
+    {
+      "verse": 4,
+      "text": "Rétablis-nous, Dieu de notre salut! Cesse ton indignation contre nous!"
+    },
+    {
+      "verse": 5,
+      "text": "T'irriteras-tu contre nous à jamais? Prolongeras-tu ta colère éternellement?"
+    },
+    {
+      "verse": 6,
+      "text": "Ne nous rendras-tu pas à la vie, Afin que ton peuple se réjouisse en toi?"
+    },
+    {
+      "verse": 7,
+      "text": "Eternel! fais-nous voir ta bonté, Et accorde-nous ton salut!"
+    },
+    {
+      "verse": 8,
+      "text": "J'écouterai ce que dit Dieu, l'Eternel; Car il parle de paix à son peuple et à ses fidèles, Pourvu qu'ils ne retombent pas dans la folie."
+    },
+    {
+      "verse": 9,
+      "text": "Oui, son salut est près de ceux qui le craignent, Afin que la gloire habite dans notre pays."
+    },
+    {
+      "verse": 10,
+      "text": "La bonté et la fidélité se rencontrent, La justice et la paix s'embrassent;"
+    },
+    {
+      "verse": 11,
+      "text": "La fidélité germe de la terre, Et la justice regarde du haut des cieux."
+    },
+    {
+      "verse": 12,
+      "text": "L'Eternel aussi accordera le bonheur, Et notre terre donnera ses fruits."
+    },
+    {
+      "verse": 13,
+      "text": "La justice marchera devant lui, Et imprimera ses pas sur le chemin."
+    }
+  ]
+}

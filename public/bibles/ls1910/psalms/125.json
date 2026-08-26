@@ -1,1 +1,27 @@
-{"book":"Psalms","bookId":"psalms","chapter":125,"verses":[{"verse":1,"text":"¶ Cantique des degrés. Ceux qui se confient en l'Eternel Sont comme la montagne de Sion: elle ne chancelle point, Elle est affermie pour toujours."},{"verse":2,"text":"Des montagnes entourent Jérusalem; Ainsi l'Eternel entoure son peuple, Dès maintenant et à jamais."},{"verse":3,"text":"Car le sceptre de la méchanceté ne restera pas sur le lot des justes, Afin que les justes ne tendent pas les mains vers l'iniquité."},{"verse":4,"text":"¶ Eternel, répands tes bienfaits sur les bons Et sur ceux dont le coeur est droit!"},{"verse":5,"text":"Mais ceux qui s'engagent dans des voies détournées, Que l'Eternel les détruise avec ceux qui font le mal! Que la paix soit sur Israël!"}]}
+{
+  "book": "Psalms",
+  "bookId": "psalms",
+  "chapter": 125,
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Cantique des degrés. Ceux qui se confient en l'Eternel Sont comme la montagne de Sion: elle ne chancelle point, Elle est affermie pour toujours."
+    },
+    {
+      "verse": 2,
+      "text": "Des montagnes entourent Jérusalem; Ainsi l'Eternel entoure son peuple, Dès maintenant et à jamais."
+    },
+    {
+      "verse": 3,
+      "text": "Car le sceptre de la méchanceté ne restera pas sur le lot des justes, Afin que les justes ne tendent pas les mains vers l'iniquité."
+    },
+    {
+      "verse": 4,
+      "text": "Eternel, répands tes bienfaits sur les bons Et sur ceux dont le coeur est droit!"
+    },
+    {
+      "verse": 5,
+      "text": "Mais ceux qui s'engagent dans des voies détournées, Que l'Eternel les détruise avec ceux qui font le mal! Que la paix soit sur Israël!"
+    }
+  ]
+}

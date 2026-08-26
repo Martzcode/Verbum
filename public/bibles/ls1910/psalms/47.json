@@ -1,1 +1,43 @@
-{"book":"Psalms","bookId":"psalms","chapter":47,"verses":[{"verse":1,"text":"¶ Au chef des chantres. Des fils de Koré. Psaume. Vous tous, peuples, battez des mains! Poussez vers Dieu des cris de joie!"},{"verse":2,"text":"Car l'Eternel, le Très-Haut, est redoutable, Il est un grand roi sur toute la terre."},{"verse":3,"text":"Il nous assujettit des peuples, Il met des nations sous nos pieds;"},{"verse":4,"text":"Il nous choisit notre héritage, La gloire de Jacob qu'il aime. -Pause."},{"verse":5,"text":"¶ Dieu monte au milieu des cris de triomphe, L'Eternel s'avance au son de la trompette."},{"verse":6,"text":"Chantez à Dieu, chantez! Chantez à notre roi, chantez!"},{"verse":7,"text":"Car Dieu est roi de toute la terre: Chantez un cantique!"},{"verse":8,"text":"Dieu règne sur les nations, Dieu a pour siège son saint trône."},{"verse":9,"text":"Les princes des peuples se réunissent Au peuple du Dieu d'Abraham; Car à Dieu sont les boucliers de la terre: Il est souverainement élevé."}]}
+{
+  "book": "Psalms",
+  "bookId": "psalms",
+  "chapter": 47,
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Au chef des chantres. Des fils de Koré. Psaume. Vous tous, peuples, battez des mains! Poussez vers Dieu des cris de joie!"
+    },
+    {
+      "verse": 2,
+      "text": "Car l'Eternel, le Très-Haut, est redoutable, Il est un grand roi sur toute la terre."
+    },
+    {
+      "verse": 3,
+      "text": "Il nous assujettit des peuples, Il met des nations sous nos pieds;"
+    },
+    {
+      "verse": 4,
+      "text": "Il nous choisit notre héritage, La gloire de Jacob qu'il aime. -Pause."
+    },
+    {
+      "verse": 5,
+      "text": "Dieu monte au milieu des cris de triomphe, L'Eternel s'avance au son de la trompette."
+    },
+    {
+      "verse": 6,
+      "text": "Chantez à Dieu, chantez! Chantez à notre roi, chantez!"
+    },
+    {
+      "verse": 7,
+      "text": "Car Dieu est roi de toute la terre: Chantez un cantique!"
+    },
+    {
+      "verse": 8,
+      "text": "Dieu règne sur les nations, Dieu a pour siège son saint trône."
+    },
+    {
+      "verse": 9,
+      "text": "Les princes des peuples se réunissent Au peuple du Dieu d'Abraham; Car à Dieu sont les boucliers de la terre: Il est souverainement élevé."
+    }
+  ]
+}

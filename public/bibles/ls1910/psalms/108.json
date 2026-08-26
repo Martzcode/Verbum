@@ -1,1 +1,59 @@
-{"book":"Psalms","bookId":"psalms","chapter":108,"verses":[{"verse":1,"text":"¶ Cantique. Psaume de David. Mon coeur est affermi, ô Dieu! Je chanterai, je ferai retentir mes instruments: c'est ma gloire!"},{"verse":2,"text":"Réveillez-vous, mon luth et ma harpe! Je réveillerai l'aurore."},{"verse":3,"text":"Je te louerai parmi les peuples, Eternel! Je te chanterai parmi les nations."},{"verse":4,"text":"Car ta bonté s'élève au-dessus des cieux, Et ta fidélité jusqu'aux nues."},{"verse":5,"text":"Elève-toi sur les cieux, ô Dieu! Et que ta gloire soit sur toute la terre!"},{"verse":6,"text":"¶ Afin que tes bien-aimés soient délivrés, Sauve par ta droite, et exauce-nous!"},{"verse":7,"text":"Dieu a dit dans sa sainteté: Je triompherai, Je partagerai Sichem, je mesurerai la vallée de Succoth;"},{"verse":8,"text":"A moi Galaad, à moi Manassé; Ephraïm est le rempart de ma tête, Et Juda, mon sceptre;"},{"verse":9,"text":"Moab est le bassin où je me lave; Je jette mon soulier sur Edom; Je pousse des cris de joie sur le pays des Philistins!"},{"verse":10,"text":"Qui me mènera dans la ville forte? Qui me conduit à Edom?"},{"verse":11,"text":"N'est-ce pas toi, ô Dieu, qui nous as repoussés, Et qui ne sortais plus, ô Dieu, avec nos armées?"},{"verse":12,"text":"Donne-nous du secours contre la détresse! Le secours de l'homme n'est que vanité."},{"verse":13,"text":"Avec Dieu, nous ferons des exploits; Il écrasera nos ennemis."}]}
+{
+  "book": "Psalms",
+  "bookId": "psalms",
+  "chapter": 108,
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Cantique. Psaume de David. Mon coeur est affermi, ô Dieu! Je chanterai, je ferai retentir mes instruments: c'est ma gloire!"
+    },
+    {
+      "verse": 2,
+      "text": "Réveillez-vous, mon luth et ma harpe! Je réveillerai l'aurore."
+    },
+    {
+      "verse": 3,
+      "text": "Je te louerai parmi les peuples, Eternel! Je te chanterai parmi les nations."
+    },
+    {
+      "verse": 4,
+      "text": "Car ta bonté s'élève au-dessus des cieux, Et ta fidélité jusqu'aux nues."
+    },
+    {
+      "verse": 5,
+      "text": "Elève-toi sur les cieux, ô Dieu! Et que ta gloire soit sur toute la terre!"
+    },
+    {
+      "verse": 6,
+      "text": "Afin que tes bien-aimés soient délivrés, Sauve par ta droite, et exauce-nous!"
+    },
+    {
+      "verse": 7,
+      "text": "Dieu a dit dans sa sainteté: Je triompherai, Je partagerai Sichem, je mesurerai la vallée de Succoth;"
+    },
+    {
+      "verse": 8,
+      "text": "A moi Galaad, à moi Manassé; Ephraïm est le rempart de ma tête, Et Juda, mon sceptre;"
+    },
+    {
+      "verse": 9,
+      "text": "Moab est le bassin où je me lave; Je jette mon soulier sur Edom; Je pousse des cris de joie sur le pays des Philistins!"
+    },
+    {
+      "verse": 10,
+      "text": "Qui me mènera dans la ville forte? Qui me conduit à Edom?"
+    },
+    {
+      "verse": 11,
+      "text": "N'est-ce pas toi, ô Dieu, qui nous as repoussés, Et qui ne sortais plus, ô Dieu, avec nos armées?"
+    },
+    {
+      "verse": 12,
+      "text": "Donne-nous du secours contre la détresse! Le secours de l'homme n'est que vanité."
+    },
+    {
+      "verse": 13,
+      "text": "Avec Dieu, nous ferons des exploits; Il écrasera nos ennemis."
+    }
+  ]
+}
