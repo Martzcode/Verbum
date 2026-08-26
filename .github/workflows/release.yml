@@ -18,6 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.calc.outputs.version }}
+      version-semver: ${{ steps.calc.outputs.version_semver }}
       tag: ${{ steps.calc.outputs.tag }}
       prerelease: ${{ steps.calc.outputs.prerelease }}
     steps:
@@ -36,6 +37,10 @@ jobs:
           NUM=$(printf '%02d' $((COUNT + 1)))
           VERSION="${PREFIX}.${NUM}"
 
+          # Tauri requires semver (no leading zeros)
+          IFS='.' read -r Y M D <<< "$VERSION"
+          VERSION_SEMVER="${Y}.$((10#${M})).$((10#${D}))"
+
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             TAG="v${VERSION}-pr-${{ github.event.number }}"
             PRERELEASE="true"
@@ -45,9 +50,10 @@ jobs:
           fi
 
           echo "version=${VERSION}" >> $GITHUB_OUTPUT
+          echo "version_semver=${VERSION_SEMVER}" >> $GITHUB_OUTPUT
           echo "tag=${TAG}" >> $GITHUB_OUTPUT
           echo "prerelease=${PRERELEASE}" >> $GITHUB_OUTPUT
-          echo "::notice::Version: ${VERSION} | Tag: ${TAG} | Pre-release: ${PRERELEASE}"
+          echo "::notice::Version: ${VERSION} (semver: ${VERSION_SEMVER}) | Tag: ${TAG} | Pre-release: ${PRERELEASE}"
 
   build-windows:
     needs: version
@@ -69,8 +75,27 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Update version for Tauri
+        shell: bash
+        run: |
+          jq --arg v "${{ needs.version.outputs.version-semver }}" '.version = $v' \
+            src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
+
       - name: Build
         run: npx tauri build
+
+      - name: Rename artifacts
+        shell: bash
+        run: |
+          VERSION="${{ needs.version.outputs.version }}"
+          SEMVER="${{ needs.version.outputs.version-semver }}"
+          for dir in src-tauri/target/release/bundle/msi src-tauri/target/release/bundle/nsis; do
+            [ -d "$dir" ] || continue
+            for f in "$dir"/*"$SEMVER"*; do
+              [ -f "$f" ] || continue
+              mv "$f" "${f//$SEMVER/$VERSION}"
+            done
+          done
 
       - name: Upload MSI
         uses: actions/upload-artifact@v4
@@ -119,8 +144,25 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Update version for Tauri
+        run: |
+          jq --arg v "${{ needs.version.outputs.version-semver }}" '.version = $v' \
+            src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
+
       - name: Build
         run: npx tauri build
+
+      - name: Rename artifacts
+        run: |
+          VERSION="${{ needs.version.outputs.version }}"
+          SEMVER="${{ needs.version.outputs.version-semver }}"
+          for dir in src-tauri/target/release/bundle/deb src-tauri/target/release/bundle/rpm; do
+            [ -d "$dir" ] || continue
+            for f in "$dir"/*"$SEMVER"*; do
+              [ -f "$f" ] || continue
+              mv "$f" "${f//$SEMVER/$VERSION}"
+            done
+          done
 
       - name: Upload DEB
         uses: actions/upload-artifact@v4
@@ -160,8 +202,24 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Update version for Tauri
+        run: |
+          jq --arg v "${{ needs.version.outputs.version-semver }}" '.version = $v' \
+            src-tauri/tauri.conf.json > tmp.json && mv tmp.json src-tauri/tauri.conf.json
+
       - name: Build
         run: npx tauri build --target universal-apple-darwin
+
+      - name: Rename artifacts
+        run: |
+          VERSION="${{ needs.version.outputs.version }}"
+          SEMVER="${{ needs.version.outputs.version-semver }}"
+          DIR="src-tauri/target/universal-apple-darwin/release/bundle/dmg"
+          [ -d "$DIR" ] || exit 0
+          for f in "$DIR"/*"$SEMVER"*; do
+            [ -f "$f" ] || continue
+            mv "$f" "${f//$SEMVER/$VERSION}"
+          done
 
       - name: Upload DMG
         uses: actions/upload-artifact@v4
@@ -210,11 +268,30 @@ jobs:
           name: macos-dmg
           path: artifacts
 
+      - name: Extract changelog
+        id: changelog
+        run: |
+          VERSION="${{ needs.version.outputs.version }}"
+          BODY=$(awk -v ver="$VERSION" '
+            /^## \[/ {
+              if (found) exit
+              if (index($0, "[" ver "]")) found = 1
+            }
+            found { print }
+          ' CHANGELOG.md)
+
+          if [ -z "$BODY" ]; then
+            BODY="Aucun changelog disponible pour cette version."
+          fi
+
+          # Write to file to preserve multiline content
+          echo "$BODY" > /tmp/changelog_body.md
+
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ needs.version.outputs.tag }}
           name: "Verbum ${{ needs.version.outputs.version }}"
           prerelease: ${{ needs.version.outputs.prerelease == 'true' }}
-          generate_release_notes: true
+          body_path: /tmp/changelog_body.md
           files: artifacts/*
