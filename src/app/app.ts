@@ -13,6 +13,7 @@ export class App implements OnInit {
   private translate = inject(TranslateService);
 
   async ngOnInit() {
+    document.addEventListener('contextmenu', e => e.preventDefault());
     await this.translate.init();
   }
 }

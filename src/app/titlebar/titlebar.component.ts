@@ -51,13 +51,6 @@ interface MenuItem {
           </svg>
           <span>{{ 'nav.bible' | t }}</span>
         </a>
-        <a class="nav-btn" routerLink="/search" routerLinkActive="active">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="11" cy="11" r="8"/>
-            <path d="M21 21l-4.35-4.35"/>
-          </svg>
-          <span>{{ 'nav.search' | t }}</span>
-        </a>
         <a class="nav-btn" routerLink="/favorites" routerLinkActive="active">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
@@ -80,6 +73,7 @@ interface MenuItem {
             [placeholder]="'search.placeholder' | t"
             [value]="searchQuery()"
             (input)="onSearch($event)"
+            (keydown.enter)="submitSearch()"
             (keydown.escape)="clearSearch()"
             [attr.aria-label]="'aria.search' | t">
         </div>
@@ -126,8 +120,8 @@ interface MenuItem {
     .nav-btn {
       display: flex;
       align-items: center;
-      gap: 4px;
-      padding: 5px 10px;
+      gap: 3px;
+      padding: 4px 8px;
       font-size: 11px;
       font-weight: 500;
       color: var(--text-muted);
@@ -138,8 +132,8 @@ interface MenuItem {
     }
 
     .nav-btn svg {
-      width: 14px;
-      height: 14px;
+      width: 13px;
+      height: 13px;
     }
 
     .nav-btn:hover {
@@ -224,6 +218,13 @@ export class TitleBarComponent implements OnInit, OnDestroy {
   onSearch(event: Event) {
     const value = (event.target as HTMLInputElement).value;
     this.searchQuery.set(value);
+  }
+
+  submitSearch() {
+    const q = this.searchQuery().trim();
+    if (q) {
+      this.router.navigate(['/search'], { queryParams: { q } });
+    }
   }
 
   clearSearch() {

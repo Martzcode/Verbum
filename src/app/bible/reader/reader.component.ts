@@ -20,7 +20,7 @@ import type { Chapter } from '../../models/bible.model';
             @if (prevChapter()) {
               <a class="nav-arrow" [routerLink]="['/bible', bookId(), prevChapter()]">←</a>
             } @else {
-              <a class="nav-arrow disabled" [routerLink]="['/bible', bookId()]">←</a>
+              <span class="nav-arrow disabled">←</span>
             }
             <div class="reader-title">
               <a class="back-link" [routerLink]="['/bible', bookId()]">{{ bookName() }}</a>
@@ -146,7 +146,12 @@ import type { Chapter } from '../../models/bible.model';
       color: var(--text-primary);
     }
 
-    .reader-content { line-height: 1.8; }
+    .reader-content {
+      line-height: 1.8;
+      max-height: calc(100vh - 160px);
+      overflow-y: auto;
+      padding-right: 8px;
+    }
 
     .verse {
       display: flex;
@@ -245,24 +250,26 @@ export class ReaderComponent implements OnInit {
   totalChapters = signal(0);
 
   async ngOnInit() {
-    const bookId = this.route.snapshot.paramMap.get('bookId') || '';
-    const chapterNum = parseInt(this.route.snapshot.paramMap.get('chapter') || '1', 10);
-    this.bookId.set(bookId);
+    this.route.paramMap.subscribe(async params => {
+      const bookId = params.get('bookId') || '';
+      const chapterNum = parseInt(params.get('chapter') || '1', 10);
+      this.bookId.set(bookId);
 
-    const books = await this.bibleService.getBooks(this.translate.currentLocale());
-    const book = books.find(b => b.id === bookId);
-    if (book) {
-      const locale = this.translate.currentLocale();
-      this.bookName.set(book.name[locale] || book.name['en'] || book.id);
-      this.totalChapters.set(book.chapters);
-      this.prevChapter.set(chapterNum > 1 ? chapterNum - 1 : null);
-      this.nextChapter.set(chapterNum < book.chapters ? chapterNum + 1 : null);
-    }
+      const books = await this.bibleService.getBooks(this.translate.currentLocale());
+      const book = books.find(b => b.id === bookId);
+      if (book) {
+        const locale = this.translate.currentLocale();
+        this.bookName.set(book.name[locale] || book.name['en'] || book.id);
+        this.totalChapters.set(book.chapters);
+        this.prevChapter.set(chapterNum > 1 ? chapterNum - 1 : null);
+        this.nextChapter.set(chapterNum < book.chapters ? chapterNum + 1 : null);
+      }
 
-    this.loading.set(true);
-    const data = await this.bibleService.getChapter(this.translate.currentLocale(), bookId, chapterNum);
-    this.chapter.set(data);
-    this.loading.set(false);
+      this.loading.set(true);
+      const data = await this.bibleService.getChapter(this.translate.currentLocale(), bookId, chapterNum);
+      this.chapter.set(data);
+      this.loading.set(false);
+    });
   }
 
   isFavorite(verse: number): boolean {

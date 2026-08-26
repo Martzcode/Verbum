@@ -1,1 +1,83 @@
-{"book":"Psalms","bookId":"psalms","chapter":80,"verses":[{"verse":1,"text":"¶ Au chef des chantres. Sur les lis lyriques. D'Asaph. Psaume. Prête l'oreille, berger d'Israël, Toi qui conduis Joseph comme un troupeau! Parais dans ta splendeur, Toi qui es assis sur les chérubins!"},{"verse":2,"text":"Devant Ephraïm, Benjamin et Manassé, réveille ta force, Et viens à notre secours!"},{"verse":3,"text":"O Dieu, relève-nous! Fais briller ta face, et nous serons sauvés!"},{"verse":4,"text":"Eternel, Dieu des armées! Jusques à quand t'irriteras-tu contre la prière de ton peuple?"},{"verse":5,"text":"Tu les nourris d'un pain de larmes. Tu les abreuves de larmes à pleine mesure."},{"verse":6,"text":"Tu fais de nous un objet de discorde pour nos voisins, Et nos ennemis se raillent de nous."},{"verse":7,"text":"Dieu des armées, relève-nous! Fais briller ta face, et nous serons sauvés!"},{"verse":8,"text":"¶ Tu avais arraché de l'Egypte une vigne; Tu as chassé des nations, et tu l'as plantée."},{"verse":9,"text":"Tu as fait place devant elle: Elle a jeté des racines et rempli la terre;"},{"verse":10,"text":"Les montagnes étaient couvertes de son ombre, Et ses rameaux étaient comme des cèdres de Dieu;"},{"verse":11,"text":"Elle étendait ses branches jusqu'à la mer, Et ses rejetons jusqu'au fleuve."},{"verse":12,"text":"Pourquoi as-tu rompu ses clôtures, En sorte que tous les passants la dépouillent?"},{"verse":13,"text":"Le sanglier de la forêt la ronge, Et les bêtes des champs en font leur pâture."},{"verse":14,"text":"Dieu des armées, reviens donc! Regarde du haut des cieux, et vois! considère cette vigne!"},{"verse":15,"text":"Protège ce que ta droite a planté, Et le fils que tu t'es choisi!..."},{"verse":16,"text":"Elle est brûlée par le feu, elle est coupée! Ils périssent devant ta face menaçante."},{"verse":17,"text":"Que ta main soit sur l'homme de ta droite, Sur le fils de l'homme que tu t'es choisi!"},{"verse":18,"text":"Et nous ne nous éloignerons plus de toi. Fais-nous revivre, et nous invoquerons ton nom."},{"verse":19,"text":"Eternel, Dieu des armées, relève-nous! Fais briller ta face, et nous serons sauvés!"}]}
+{
+  "book": "Psalms",
+  "bookId": "psalms",
+  "chapter": 80,
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Au chef des chantres. Sur les lis lyriques. D'Asaph. Psaume. Prête l'oreille, berger d'Israël, Toi qui conduis Joseph comme un troupeau! Parais dans ta splendeur, Toi qui es assis sur les chérubins!"
+    },
+    {
+      "verse": 2,
+      "text": "Devant Ephraïm, Benjamin et Manassé, réveille ta force, Et viens à notre secours!"
+    },
+    {
+      "verse": 3,
+      "text": "O Dieu, relève-nous! Fais briller ta face, et nous serons sauvés!"
+    },
+    {
+      "verse": 4,
+      "text": "Eternel, Dieu des armées! Jusques à quand t'irriteras-tu contre la prière de ton peuple?"
+    },
+    {
+      "verse": 5,
+      "text": "Tu les nourris d'un pain de larmes. Tu les abreuves de larmes à pleine mesure."
+    },
+    {
+      "verse": 6,
+      "text": "Tu fais de nous un objet de discorde pour nos voisins, Et nos ennemis se raillent de nous."
+    },
+    {
+      "verse": 7,
+      "text": "Dieu des armées, relève-nous! Fais briller ta face, et nous serons sauvés!"
+    },
+    {
+      "verse": 8,
+      "text": "Tu avais arraché de l'Egypte une vigne; Tu as chassé des nations, et tu l'as plantée."
+    },
+    {
+      "verse": 9,
+      "text": "Tu as fait place devant elle: Elle a jeté des racines et rempli la terre;"
+    },
+    {
+      "verse": 10,
+      "text": "Les montagnes étaient couvertes de son ombre, Et ses rameaux étaient comme des cèdres de Dieu;"
+    },
+    {
+      "verse": 11,
+      "text": "Elle étendait ses branches jusqu'à la mer, Et ses rejetons jusqu'au fleuve."
+    },
+    {
+      "verse": 12,
+      "text": "Pourquoi as-tu rompu ses clôtures, En sorte que tous les passants la dépouillent?"
+    },
+    {
+      "verse": 13,
+      "text": "Le sanglier de la forêt la ronge, Et les bêtes des champs en font leur pâture."
+    },
+    {
+      "verse": 14,
+      "text": "Dieu des armées, reviens donc! Regarde du haut des cieux, et vois! considère cette vigne!"
+    },
+    {
+      "verse": 15,
+      "text": "Protège ce que ta droite a planté, Et le fils que tu t'es choisi!..."
+    },
+    {
+      "verse": 16,
+      "text": "Elle est brûlée par le feu, elle est coupée! Ils périssent devant ta face menaçante."
+    },
+    {
+      "verse": 17,
+      "text": "Que ta main soit sur l'homme de ta droite, Sur le fils de l'homme que tu t'es choisi!"
+    },
+    {
+      "verse": 18,
+      "text": "Et nous ne nous éloignerons plus de toi. Fais-nous revivre, et nous invoquerons ton nom."
+    },
+    {
+      "verse": 19,
+      "text": "Eternel, Dieu des armées, relève-nous! Fais briller ta face, et nous serons sauvés!"
+    }
+  ]
+}

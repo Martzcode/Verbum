@@ -1,1 +1,111 @@
-{"book":"Psalms","bookId":"psalms","chapter":44,"verses":[{"verse":1,"text":"¶ Au chef des chantres. Des fils de Koré. Cantique. O Dieu! nous avons entendu de nos oreilles, Nos pères nous ont raconté Les oeuvres que tu as accomplies de leur temps, Aux jours d'autrefois."},{"verse":2,"text":"De ta main tu as chassé des nations pour les établir, Tu as frappé des peuples pour les étendre."},{"verse":3,"text":"Car ce n'est point par leur épée qu'ils se sont emparés du pays, Ce n'est point leur bras qui les a sauvés; Mais c'est ta droite, c'est ton bras, c'est la lumière de ta face, Parce que tu les aimais."},{"verse":4,"text":"O Dieu! tu es mon roi: Ordonne la délivrance de Jacob!"},{"verse":5,"text":"Avec toi nous renversons nos ennemis, Avec ton nom nous écrasons nos adversaires."},{"verse":6,"text":"Car ce n'est pas en mon arc que je me confie, Ce n'est pas mon épée qui me sauvera;"},{"verse":7,"text":"Mais c'est toi qui nous délivres de nos ennemis, Et qui confonds ceux qui nous haïssent."},{"verse":8,"text":"Nous nous glorifions en Dieu chaque jour, Et nous célébrerons à jamais ton nom. -Pause."},{"verse":9,"text":"¶ Cependant tu nous repousses, tu nous couvres de honte, Tu ne sors plus avec nos armées;"},{"verse":10,"text":"Tu nous fais reculer devant l'ennemi, Et ceux qui nous haïssent enlèvent nos dépouilles."},{"verse":11,"text":"Tu nous livres comme des brebis à dévorer, Tu nous disperses parmi les nations."},{"verse":12,"text":"Tu vends ton peuple pour rien, Tu ne l'estimes pas à une grande valeur."},{"verse":13,"text":"Tu fais de nous un objet d'opprobre pour nos voisins, De moquerie et de risée pour ceux qui nous entourent;"},{"verse":14,"text":"Tu fais de nous un objet de sarcasme parmi les nations, Et de hochements de tête parmi les peuples."},{"verse":15,"text":"Ma honte est toujours devant moi, Et la confusion couvre mon visage,"},{"verse":16,"text":"A la voix de celui qui m'insulte et m'outrage, A la vue de l'ennemi et du vindicatif."},{"verse":17,"text":"¶ Tout cela nous arrive, sans que nous t'ayons oublié, Sans que nous ayons violé ton alliance:"},{"verse":18,"text":"Notre coeur ne s'est point détourné, Nos pas ne se sont point éloignés de ton sentier,"},{"verse":19,"text":"Pour que tu nous écrases dans la demeure des chacals, Et que tu nous couvres de l'ombre de la mort."},{"verse":20,"text":"Si nous avions oublié le nom de notre Dieu, Et étendu nos mains vers un dieu étranger,"},{"verse":21,"text":"Dieu ne le saurait-il pas, Lui qui connaît les secrets du coeur?"},{"verse":22,"text":"Mais c'est à cause de toi qu'on nous égorge tous les jours, Qu'on nous regarde comme des brebis destinées à la boucherie."},{"verse":23,"text":"Réveille-toi! Pourquoi dors-tu, Seigneur? Réveille-toi! ne nous repousse pas à jamais!"},{"verse":24,"text":"Pourquoi caches-tu ta face? Pourquoi oublies-tu notre misère et notre oppression?"},{"verse":25,"text":"Car notre âme est abattue dans la poussière, Notre corps est attaché à la terre."},{"verse":26,"text":"Lève-toi, pour nous secourir! Délivre-nous à cause de ta bonté!"}]}
+{
+  "book": "Psalms",
+  "bookId": "psalms",
+  "chapter": 44,
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Au chef des chantres. Des fils de Koré. Cantique. O Dieu! nous avons entendu de nos oreilles, Nos pères nous ont raconté Les oeuvres que tu as accomplies de leur temps, Aux jours d'autrefois."
+    },
+    {
+      "verse": 2,
+      "text": "De ta main tu as chassé des nations pour les établir, Tu as frappé des peuples pour les étendre."
+    },
+    {
+      "verse": 3,
+      "text": "Car ce n'est point par leur épée qu'ils se sont emparés du pays, Ce n'est point leur bras qui les a sauvés; Mais c'est ta droite, c'est ton bras, c'est la lumière de ta face, Parce que tu les aimais."
+    },
+    {
+      "verse": 4,
+      "text": "O Dieu! tu es mon roi: Ordonne la délivrance de Jacob!"
+    },
+    {
+      "verse": 5,
+      "text": "Avec toi nous renversons nos ennemis, Avec ton nom nous écrasons nos adversaires."
+    },
+    {
+      "verse": 6,
+      "text": "Car ce n'est pas en mon arc que je me confie, Ce n'est pas mon épée qui me sauvera;"
+    },
+    {
+      "verse": 7,
+      "text": "Mais c'est toi qui nous délivres de nos ennemis, Et qui confonds ceux qui nous haïssent."
+    },
+    {
+      "verse": 8,
+      "text": "Nous nous glorifions en Dieu chaque jour, Et nous célébrerons à jamais ton nom. -Pause."
+    },
+    {
+      "verse": 9,
+      "text": "Cependant tu nous repousses, tu nous couvres de honte, Tu ne sors plus avec nos armées;"
+    },
+    {
+      "verse": 10,
+      "text": "Tu nous fais reculer devant l'ennemi, Et ceux qui nous haïssent enlèvent nos dépouilles."
+    },
+    {
+      "verse": 11,
+      "text": "Tu nous livres comme des brebis à dévorer, Tu nous disperses parmi les nations."
+    },
+    {
+      "verse": 12,
+      "text": "Tu vends ton peuple pour rien, Tu ne l'estimes pas à une grande valeur."
+    },
+    {
+      "verse": 13,
+      "text": "Tu fais de nous un objet d'opprobre pour nos voisins, De moquerie et de risée pour ceux qui nous entourent;"
+    },
+    {
+      "verse": 14,
+      "text": "Tu fais de nous un objet de sarcasme parmi les nations, Et de hochements de tête parmi les peuples."
+    },
+    {
+      "verse": 15,
+      "text": "Ma honte est toujours devant moi, Et la confusion couvre mon visage,"
+    },
+    {
+      "verse": 16,
+      "text": "A la voix de celui qui m'insulte et m'outrage, A la vue de l'ennemi et du vindicatif."
+    },
+    {
+      "verse": 17,
+      "text": "Tout cela nous arrive, sans que nous t'ayons oublié, Sans que nous ayons violé ton alliance:"
+    },
+    {
+      "verse": 18,
+      "text": "Notre coeur ne s'est point détourné, Nos pas ne se sont point éloignés de ton sentier,"
+    },
+    {
+      "verse": 19,
+      "text": "Pour que tu nous écrases dans la demeure des chacals, Et que tu nous couvres de l'ombre de la mort."
+    },
+    {
+      "verse": 20,
+      "text": "Si nous avions oublié le nom de notre Dieu, Et étendu nos mains vers un dieu étranger,"
+    },
+    {
+      "verse": 21,
+      "text": "Dieu ne le saurait-il pas, Lui qui connaît les secrets du coeur?"
+    },
+    {
+      "verse": 22,
+      "text": "Mais c'est à cause de toi qu'on nous égorge tous les jours, Qu'on nous regarde comme des brebis destinées à la boucherie."
+    },
+    {
+      "verse": 23,
+      "text": "Réveille-toi! Pourquoi dors-tu, Seigneur? Réveille-toi! ne nous repousse pas à jamais!"
+    },
+    {
+      "verse": 24,
+      "text": "Pourquoi caches-tu ta face? Pourquoi oublies-tu notre misère et notre oppression?"
+    },
+    {
+      "verse": 25,
+      "text": "Car notre âme est abattue dans la poussière, Notre corps est attaché à la terre."
+    },
+    {
+      "verse": 26,
+      "text": "Lève-toi, pour nous secourir! Délivre-nous à cause de ta bonté!"
+    }
+  ]
+}

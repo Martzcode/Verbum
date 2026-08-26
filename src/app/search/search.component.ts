@@ -1,5 +1,5 @@
-import { Component, inject, signal } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Component, inject, signal, OnInit } from '@angular/core';
+import { RouterLink, ActivatedRoute } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { TranslatePipe } from '../pipes/translate.pipe';
 import { TranslateService } from '../services/translate.service';
@@ -12,8 +12,6 @@ import type { SearchResult } from '../models/bible.model';
   imports: [RouterLink, FormsModule, TranslatePipe],
   template: `
     <div class="search-page">
-      <h1>{{ 'search.title' | t }}</h1>
-
       <div class="search-box">
         <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <circle cx="11" cy="11" r="8"/>
@@ -25,9 +23,6 @@ import type { SearchResult } from '../models/bible.model';
           [placeholder]="'search.placeholder' | t"
           [(ngModel)]="query"
           (keydown.enter)="doSearch()">
-        <button class="search-btn" (click)="doSearch()">
-          {{ 'nav.search' | t }}
-        </button>
       </div>
 
       @if (searching()) {
@@ -50,7 +45,7 @@ import type { SearchResult } from '../models/bible.model';
     </div>
   `,
   styles: [`
-    .search-page { max-width: 700px; margin: 0 auto; padding: 24px; }
+    .search-page { max-width: 700px; margin: 0 auto; padding: 24px; max-height: calc(100vh - 160px); overflow-y: auto; }
 
     h1 { font-size: 24px; font-weight: 700; margin: 0 0 24px; color: var(--text-primary); }
 
@@ -133,14 +128,24 @@ import type { SearchResult } from '../models/bible.model';
     }
   `]
 })
-export class SearchComponent {
+export class SearchComponent implements OnInit {
   private bibleService = inject(BibleService);
   private translate = inject(TranslateService);
+  private route = inject(ActivatedRoute);
 
   query = '';
   results = signal<(SearchResult & { id: string })[]>([]);
   searching = signal(false);
   hasSearched = signal(false);
+
+  ngOnInit() {
+    this.route.queryParams.subscribe(params => {
+      if (params['q']) {
+        this.query = params['q'];
+        this.doSearch();
+      }
+    });
+  }
 
   async doSearch() {
     if (!this.query.trim()) return;
