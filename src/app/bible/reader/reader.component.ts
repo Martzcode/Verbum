@@ -146,7 +146,12 @@ import type { Chapter } from '../../models/bible.model';
       color: var(--text-primary);
     }
 
-    .reader-content { line-height: 1.8; }
+    .reader-content {
+      line-height: 1.8;
+      max-height: calc(100vh - 160px);
+      overflow-y: auto;
+      padding-right: 8px;
+    }
 
     .verse {
       display: flex;
